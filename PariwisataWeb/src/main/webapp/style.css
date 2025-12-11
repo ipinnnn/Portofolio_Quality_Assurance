@@ -1,0 +1,175 @@
+/* =============================
+   Tema Estetik Jawa Tengah
+   ============================= */
+
+/* Font & latar belakang */
+body {
+    font-family: 'Georgia', serif;
+    background: #fdf6e4 url('images/batik-pattern.png'); /* Ganti dengan path gambar batik Anda */
+    background-size: contain;
+    background-repeat: repeat;
+    color: #4b2e19;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container & Form Box */
+.container, .form-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.94);
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d3ba98;
+    backdrop-filter: blur(1px);
+}
+
+/* Judul */
+h1, h2, h3 {
+    text-align: center;
+    color: #7a2d19;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #d4ac0d;
+    padding-bottom: 8px;
+}
+
+/* Label & Input Style */
+label {
+    display: block;
+    margin-top: 18px;
+    font-weight: bold;
+    color: #5a3923;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 11px;
+    margin-top: 6px;
+    border: 1px solid #cfae7e;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #fffaf2;
+    transition: border-color 0.3s;
+    font-family: 'Georgia', serif;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #a0522d;
+    outline: none;
+}
+
+/* Tombol Umum */
+.btn {
+    background-color: #8b3a27;
+    color: white;
+    padding: 10px 24px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    font-family: 'Georgia', serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #6d2c1c;
+}
+
+/* Tombol Spesifik */
+.btn-edit {
+    background-color: #a0602d;
+}
+.btn-edit:hover {
+    background-color: #854d21;
+}
+.btn-delete {
+    background-color: #b12b2b;
+}
+.btn-delete:hover {
+    background-color: #8f1f1f;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid #e0d2b6;
+}
+
+th {
+    background-color: #a0522d;
+    color: white;
+    padding: 14px;
+    text-align: left;
+    border: 1px solid #c39b6c;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #e7d7bc;
+    vertical-align: top;
+    background-color: #fdfaf4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f3e8;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+/* Form Pencarian */
+.search {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.search input,
+.search select {
+    padding: 9px;
+    font-size: 14px;
+    border: 1px solid #c5a880;
+    border-radius: 6px;
+    background-color: #fff9ef;
+    flex-grow: 1;
+    min-width: 160px;
+}
+
+/* Notifikasi */
+.message-success {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #4e7520;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Tombol Aksi Horizontal */
+.action-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
